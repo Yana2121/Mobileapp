@@ -1,32 +1,33 @@
-import Header from './title/Header';
-import { ScrollView, Text, View, StyleSheet } from 'react-native';
-import NewsDay from './component/NewsDay';
-import News from './component/News';
-import Article from './component/Article';
-import Description from './component/Description';
-import Profile from './component/Profile';
-import Footer from './title/Footer';
+import Header from "./title/Header";
+import { ScrollView, Text, View, StyleSheet } from "react-native";
+import NewsDay from "./component/NewsDay";
+import News from "./component/News";
+import Article from "./component/Article";
+import Description from "./component/Description";
+import Profile from "./component/Profile";
+import Footer from "./title/Footer";
 
 export default function App() {
+  console.log("test");
   return (
     <ScrollView>
-      <Header/>
-      <NewsDay/>
+      <Header />
+      <NewsDay />
       <ScrollView>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
-        <News/>
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
+        <News />
       </ScrollView>
-      <Footer/>
+      <Footer />
     </ScrollView>
   );
 }
